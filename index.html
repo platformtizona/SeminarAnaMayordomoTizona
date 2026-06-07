@@ -32,7 +32,6 @@
     overflow-x: hidden;
   }
 
-  /* Efecto de ruido sutil */
   body::before {
     content: "";
     position: fixed;
@@ -51,7 +50,6 @@
     padding: 0 40px;
   }
 
-  /* HERO */
   .hero {
     min-height: 100vh;
     position: relative;
@@ -68,7 +66,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(135deg, rgba(0,0,0,0.92) 0%, rgba(0,0,0,0.75) 50%, rgba(0,0,0,0.88) 100%), url('images/ana.jpg') center/cover no-repeat;
+    background: linear-gradient(135deg, rgba(0,0,0,0.92) 0%, rgba(0,0,0,0.75) 50%, rgba(0,0,0,0.88) 100%), url('https://raw.githubusercontent.com/platformtizona/SeminarAnaMayordomoTizona/main/images/ana.jpg') center/cover no-repeat;
     background-size: cover;
     z-index: 0;
   }
@@ -215,13 +213,17 @@
     justify-content: center;
     gap: 60px;
     margin-top: 70px;
-    opacity: 0.6;
+    opacity: 0.8;
   }
 
   .logos-premium img {
-    height: 50px;
+    height: 60px;
     filter: grayscale(100%) brightness(1.5);
     transition: all 0.3s;
+  }
+
+  .logos-premium img:hover {
+    filter: grayscale(0%) brightness(1);
   }
 
   section {
@@ -419,8 +421,8 @@
     <div class="limited-badge">⚡ SOLO 30 PLAZAS DISPONIBLES ⚡</div>
     
     <div class="logos-premium">
-      <img src="images/tizona-logo.png" alt="Tizona Fight Club">
-      <img src="images/cicero-logo.png" alt="Cicero Costha">
+      <img src="https://raw.githubusercontent.com/platformtizona/SeminarAnaMayordomoTizona/main/images/tizona-logo.png" alt="Tizona Fight Club">
+      <img src="https://raw.githubusercontent.com/platformtizona/SeminarAnaMayordomoTizona/main/images/cicero-logo.png" alt="Cicero Costha">
     </div>
   </div>
 </div>
